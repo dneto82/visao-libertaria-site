@@ -1,4 +1,4 @@
-FROM php:8.0-alpine
+FROM php:8.5.0RC2-alpine
 
 RUN apk add --no-cache openrc linux-headers
 
